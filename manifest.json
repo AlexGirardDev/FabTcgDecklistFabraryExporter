@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "FAB TCG Fabrary Export",
+  "version": "1.0.0",
+  "description": "Export FAB TCG decklists to Fabrary with one click",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://fabtcg.com/decklists/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
