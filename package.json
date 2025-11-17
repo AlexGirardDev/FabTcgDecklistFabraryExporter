@@ -1,0 +1,30 @@
+{
+  "name": "fab-tcg-fabrary-export",
+  "version": "1.0.0",
+  "description": "Export FAB TCG decklists to Fabrary with one click",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:chrome": "node scripts/build.js chrome",
+    "build:firefox": "node scripts/build.js firefox",
+    "package": "node scripts/package.js",
+    "package:chrome": "node scripts/package.js chrome",
+    "package:firefox": "node scripts/package.js firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/FabTcgFabraryExport.git"
+  },
+  "keywords": [
+    "flesh-and-blood",
+    "fab-tcg",
+    "fabrary",
+    "decklist",
+    "chrome-extension",
+    "firefox-addon"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^6.0.1"
+  }
+}
