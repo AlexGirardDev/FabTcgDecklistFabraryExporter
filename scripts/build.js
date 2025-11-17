@@ -14,7 +14,10 @@ fs.mkdirSync(distDir, { recursive: true });
 const filesToCopy = [
   'content.js',
   'styles.css',
-  'README.md'
+  'README.md',
+  'icon16.png',
+  'icon48.png',
+  'icon128.png'
 ];
 
 // Copy files

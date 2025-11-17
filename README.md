@@ -1,96 +1,73 @@
 # FAB TCG Decklist Fabrary Exporter
 
-A browser extension for Chrome and Firefox that adds an "Export to Fabrary" button to Flesh and Blood TCG decklist pages on fabtcg.com, allowing you to quickly import decklists into Fabrary.
+A browser extension for Chrome and Firefox that adds an "Export to Fabrary" button to Flesh and Blood TCG decklist pages on fabtcg.com.
 
 ## Features
 
-- Automatically detects FAB TCG decklist pages
-- Adds an easy-to-use "Export to Fabrary" button
-- Extracts all cards from the decklist (including quantities)
-- Captures player name, event, and rank information
-- Generates a properly formatted Fabrary import URL
-- Opens the import in a new tab with one click
+- One-click export from fabtcg.com to Fabrary
+- Automatically extracts all cards with quantities
+- Captures deck metadata (player name, event, ranking)
+- Clean, simple interface
+- No login or permissions required
+- Free and open source
 
 ## Installation
 
-### From Chrome Web Store
+### Chrome Web Store
 Coming soon!
 
-### From Firefox Add-ons
+### Firefox Add-ons
 Coming soon!
 
-### Installing from Source (Developer Mode)
+### Install from Source
 
-1. Download or clone this repository to your local machine
-
-2. Open Google Chrome and navigate to `chrome://extensions/`
-
-3. Enable "Developer mode" by toggling the switch in the top-right corner
-
-4. Click "Load unpacked" button
-
-5. Select the folder containing the extension files (the folder with `manifest.json`)
-
-6. The extension should now be installed and active!
+1. Clone this repository
+2. Open Chrome/Firefox and go to extensions page (`chrome://extensions` or `about:addons`)
+3. Enable "Developer mode"
+4. Click "Load unpacked" and select this directory
+5. Visit any fabtcg.com decklist page and click the "Export to Fabrary" button
 
 ## Usage
 
-1. Navigate to any FAB TCG decklist page (e.g., `https://fabtcg.com/decklists/...`)
+1. Visit any decklist on [fabtcg.com](https://fabtcg.com/decklists/)
+2. Click the blue "Export to Fabrary" button
+3. Your deck opens in Fabrary, ready to save!
 
-2. Look for the blue "Export to Fabrary" button (it will appear near the top of the page)
+## Example
 
-3. Click the button
+Try it on pages like:
+- https://fabtcg.com/decklists/jas-tin-lim-florian-rotwood-harbinger-battle-hardened-edinburgh/
 
-4. A new tab will open with the decklist pre-loaded in Fabrary's import interface
+## Privacy
 
-5. The deck name will be automatically formatted as: `Player Name - Event - Rank` (if this information is available on the page)
+This extension does not collect, store, or transmit any user data. It only reads publicly visible decklist information from fabtcg.com pages. See [PRIVACY.md](PRIVACY.md) for details.
 
-## Example URLs
+## Development
 
-The extension works on pages like:
-- https://fabtcg.com/decklists/michael-feng-viserai-rune-blood-battle-hardened-sydney-2025/
-- https://fabtcg.com/decklists/drew-bosco-kayo-underhanded-cheat-ldxp-tacoma-battle-hardened/
+```bash
+# Install dependencies
+npm install
 
-## How It Works
+# Build for Chrome
+npm run build:chrome
 
-The extension:
-1. Scans the decklist page for card identifiers (e.g., HVY047, ARC158)
-2. Extracts quantities for each card
-3. Gathers metadata (player name, event, ranking)
-4. Constructs a Fabrary import URL with all cards and deck name
-5. Opens the URL in a new tab for easy import
+# Build for Firefox
+npm run build:firefox
 
-## Troubleshooting
+# Package both versions
+npm run package
+```
 
-**Button doesn't appear:**
-- Make sure you're on a fabtcg.com decklist page
-- Try refreshing the page
-- Check that the extension is enabled in `chrome://extensions/`
-
-**Cards not exporting correctly:**
-- The page structure may have changed. Please report the issue with the specific URL
-- Check the browser console for error messages (F12 → Console tab)
-
-**Deck name is wrong or missing:**
-- The extension tries to extract player name, event, and rank from the page
-- If this information isn't clearly marked on the page, it may not be captured
-- You can edit the deck name after importing in Fabrary
-
-## Files
-
-- `manifest.json` - Extension configuration
-- `content.js` - Main logic for extracting cards and generating URLs
-- `styles.css` - Button styling
-- `README.md` - This file
-
-## Note on Icons
-
-The manifest references icon files (`icon16.png`, `icon48.png`, `icon128.png`) which are optional. The extension will work without them, but you can add your own icons if desired.
+See [PUBLISHING.md](PUBLISHING.md) for store submission guidelines.
 
 ## License
 
-This is a community tool created for FAB TCG players. Use freely!
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Found a bug or want to improve the extension? Feel free to submit issues or pull requests!
+Issues and pull requests welcome! This is a community tool for FAB TCG players.
+
+## Disclaimer
+
+This is an unofficial community tool. Not affiliated with Legend Story Studios or Fabrary.

@@ -3,6 +3,11 @@
   "name": "FAB TCG Decklist Fabrary Exporter",
   "version": "1.0.0",
   "description": "Export Flesh and Blood TCG decklists from fabtcg.com to Fabrary with one click",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [],
   "content_scripts": [
     {
