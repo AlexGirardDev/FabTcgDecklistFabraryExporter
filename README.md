@@ -1,6 +1,6 @@
-# FAB TCG Fabrary Export Chrome Extension
+# FAB TCG Decklist Fabrary Exporter
 
-A Chrome extension that adds an "Export to Fabrary" button to FAB TCG decklist pages, allowing you to quickly import decklists into Fabrary.
+A browser extension for Chrome and Firefox that adds an "Export to Fabrary" button to Flesh and Blood TCG decklist pages on fabtcg.com, allowing you to quickly import decklists into Fabrary.
 
 ## Features
 
@@ -12,6 +12,12 @@ A Chrome extension that adds an "Export to Fabrary" button to FAB TCG decklist p
 - Opens the import in a new tab with one click
 
 ## Installation
+
+### From Chrome Web Store
+Coming soon!
+
+### From Firefox Add-ons
+Coming soon!
 
 ### Installing from Source (Developer Mode)
 

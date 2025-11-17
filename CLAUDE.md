@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Chrome extension (Manifest V3) that adds an "Export to Fabrary" button to FAB TCG decklist pages on fabtcg.com. The extension extracts card data from decklist pages and generates a Fabrary import URL.
+This is a browser extension (Chrome/Firefox, Manifest V3) called **FAB TCG Decklist Fabrary Exporter** that adds an "Export to Fabrary" button to Flesh and Blood TCG decklist pages on fabtcg.com. The extension extracts card data from decklist pages and generates a Fabrary import URL.
 
 ## Architecture
 

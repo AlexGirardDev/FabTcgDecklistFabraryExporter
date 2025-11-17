@@ -36,7 +36,7 @@ if (target === 'firefox') {
   // Add Firefox-specific fields
   manifest.browser_specific_settings = {
     gecko: {
-      id: 'fab-fabrary-export@example.com',
+      id: 'fab-tcg-decklist-fabrary-exporter@example.com',
       strict_min_version: '109.0'
     }
   };

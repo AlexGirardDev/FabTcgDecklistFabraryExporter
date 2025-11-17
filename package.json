@@ -1,7 +1,7 @@
 {
-  "name": "fab-tcg-fabrary-export",
+  "name": "fab-tcg-decklist-fabrary-exporter",
   "version": "1.0.0",
-  "description": "Export FAB TCG decklists to Fabrary with one click",
+  "description": "Export Flesh and Blood TCG decklists from fabtcg.com to Fabrary with one click",
   "scripts": {
     "clean": "rm -rf dist",
     "build:chrome": "node scripts/build.js chrome",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/FabTcgFabraryExport.git"
+    "url": "https://github.com/YOUR_USERNAME/fab-tcg-decklist-fabrary-exporter.git"
   },
   "keywords": [
     "flesh-and-blood",

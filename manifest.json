@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "FAB TCG Fabrary Export",
+  "name": "FAB TCG Decklist Fabrary Exporter",
   "version": "1.0.0",
-  "description": "Export FAB TCG decklists to Fabrary with one click",
+  "description": "Export Flesh and Blood TCG decklists from fabtcg.com to Fabrary with one click",
   "permissions": [],
   "content_scripts": [
     {

@@ -40,8 +40,8 @@ npm run package
 ```
 
 This creates:
-- `dist/fab-fabrary-export-chrome-v1.0.0.zip`
-- `dist/fab-fabrary-export-firefox-v1.0.0.zip`
+- `dist/fab-tcg-decklist-fabrary-exporter-chrome-v1.0.0.zip`
+- `dist/fab-tcg-decklist-fabrary-exporter-firefox-v1.0.0.zip`
 
 ### Manual Build
 
@@ -61,10 +61,10 @@ npm run package:firefox
 
 1. Go to [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)
 2. Click "New Item"
-3. Upload `dist/fab-fabrary-export-chrome-v*.zip`
+3. Upload `dist/fab-tcg-decklist-fabrary-exporter-chrome-v*.zip`
 4. Fill in the required fields:
-   - **Product name**: FAB TCG Fabrary Export
-   - **Summary**: Export FAB TCG decklists to Fabrary with one click
+   - **Product name**: FAB TCG Decklist Fabrary Exporter
+   - **Summary**: Export Flesh and Blood TCG decklists to Fabrary with one click
    - **Description**: Use the description from README.md, enhanced with:
      - Features list
      - How it works
@@ -90,12 +90,12 @@ npm run package:firefox
 
 1. Go to [Firefox Add-on Developer Hub](https://addons.mozilla.org/developers/)
 2. Click "Submit a New Add-on"
-3. Upload `dist/fab-fabrary-export-firefox-v*.zip`
+3. Upload `dist/fab-tcg-decklist-fabrary-exporter-firefox-v*.zip`
 4. Select distribution:
    - Choose "On this site" for AMO (recommended)
 5. Fill in listing details:
-   - **Name**: FAB TCG Fabrary Export
-   - **Summary**: Export FAB TCG decklists to Fabrary with one click
+   - **Name**: FAB TCG Decklist Fabrary Exporter
+   - **Summary**: Export Flesh and Blood TCG decklists to Fabrary with one click
    - **Description**: Same as Chrome version
    - **Categories**: Web Development, Shopping, Other
    - **Support email**: Your email

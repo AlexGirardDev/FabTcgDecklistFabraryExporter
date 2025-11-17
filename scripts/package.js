@@ -19,7 +19,7 @@ async function packageExtension(target) {
   );
   const version = manifest.version;
 
-  const outputPath = path.join(outputDir, `fab-fabrary-export-${target}-v${version}.zip`);
+  const outputPath = path.join(outputDir, `fab-tcg-decklist-fabrary-exporter-${target}-v${version}.zip`);
 
   return new Promise((resolve, reject) => {
     const output = fs.createWriteStream(outputPath);
